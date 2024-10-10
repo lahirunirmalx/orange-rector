@@ -13,7 +13,7 @@
     "require": {},
   "autoload": {
     "psr-4": {
-      "OrangeHRM\\Rector\\Rule": "src/rule"
+      "OrangeHRM\\Rector\\Rule\\": "src/rule"
     }
   }
 }
