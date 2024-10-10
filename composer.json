@@ -1,0 +1,19 @@
+{
+    "name": "ohrm/rector",
+    "description": "this package has custom rules for orangehrm specific rector rules",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lahiru Samarasinghe",
+            "email": "lahiru@oranghrm.us.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+  "autoload": {
+    "psr-4": {
+      "OrangeHRM\\Rector\\Rule": "src/rule"
+    }
+  }
+}
